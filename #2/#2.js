@@ -9,6 +9,4 @@ function solution(num) {
       return answer ="Odd"       //아니라면 홀수라고 표시한다.
   }
   return answer;
-
 }
-

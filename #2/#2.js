@@ -10,3 +10,5 @@ function solution(num) {
   }
   return answer;
 }
+
+console.log(solution(4))

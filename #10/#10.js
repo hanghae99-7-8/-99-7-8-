@@ -11,6 +11,6 @@ function solution(arr1, arr2) {
 
 }
 
-console.log([[2],[4]].length)
+console.log([[2],[4],[6]].length)
 
-console.log(solution([[2],[4]],[[5],[7]]))
+console.log(solution([[2],[4],[6]],[[5],[7],[4]]))

@@ -142,7 +142,7 @@ function solution(price, money, count){
 ```javascript
 function solution(a, b){
   var answer = ["SUN","MON","TUE","WED","THU","FRI","SAT"];
-  var date = new.Date(`2016-${a}-${b}`); //new Date : 날짜를 지정해 주는 함수
+  var date = new Date(`2016-${a}-${b}`); //new Date : 날짜를 지정해 주는 함수
   var day = date.getDay() // getDay : 요일을 지정해 주는 함수 (0:일, 1:월, 2:화, 3:수, 4:목, 5:금, 6:토)
   return answer[day];
 }
